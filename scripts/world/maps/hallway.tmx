@@ -4,7 +4,7 @@
   <export target="hallway.lua" format="lua"/>
  </editorsettings>
  <properties>
-  <property name="light" value="true"/>
+  <property name="light" type="bool" value="true"/>
  </properties>
  <tileset firstgid="1" source="../tilesets/hallway.tsx"/>
  <layer id="1" name="Tile Layer 1" width="27" height="11">
