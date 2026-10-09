@@ -9,8 +9,8 @@ return {
   height = 11,
   tilewidth = 40,
   tileheight = 40,
-  nextlayerid = 5,
-  nextobjectid = 37,
+  nextlayerid = 6,
+  nextobjectid = 38,
   properties = {
     ["light"] = true
   },
@@ -23,6 +23,36 @@ return {
     }
   },
   layers = {
+    {
+      type = "objectgroup",
+      draworder = "topdown",
+      id = 5,
+      name = "objects_under",
+      class = "",
+      visible = true,
+      opacity = 1,
+      offsetx = 0,
+      offsety = 0,
+      parallaxx = 1,
+      parallaxy = 1,
+      properties = {},
+      objects = {
+        {
+          id = 37,
+          name = "mirror",
+          type = "",
+          shape = "rectangle",
+          x = 260,
+          y = 130,
+          width = 70,
+          height = 130,
+          rotation = 0,
+          opacity = 1,
+          visible = true,
+          properties = {}
+        }
+      }
+    },
     {
       type = "tilelayer",
       x = 0,
