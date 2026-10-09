@@ -11,13 +11,15 @@ return {
   tileheight = 40,
   nextlayerid = 5,
   nextobjectid = 37,
-  properties = {},
+  properties = {
+    ["light"] = "true"
+  },
   tilesets = {
     {
       name = "hallway",
       firstgid = 1,
       filename = "../tilesets/hallway.tsx",
-      exportfilename = "../tilesets/hallway.lua"
+      exportfilename = "hallway.lua"
     }
   },
   layers = {
